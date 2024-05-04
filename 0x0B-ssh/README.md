@@ -13,7 +13,7 @@
 
   <tbody>
       <tr>
-        <td>59637-web-01</td>
+        <td>527377-web-01</td>
         <td><code>ubuntu</code></td>
         <td><code>100.26.152.159</code></td>
         <td>running</td>
