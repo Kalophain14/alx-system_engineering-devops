@@ -40,8 +40,8 @@ frontend kalophain-tech-frontend
 
 backend kalophain-tech-backend
     balance roundrobin
-    server 527377-web-01 100.26.152.159 check
-    server 527377-web-02 54.90.16.78 check
+    server 527377-web-01 100.26.152.159:80 check
+    server 527377-web-02 54.90.16.78:80 check
 "
 
 # shellcheck disable=SC2154
