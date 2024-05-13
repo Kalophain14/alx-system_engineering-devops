@@ -53,7 +53,7 @@ server_config=\
 			try_files \$uri \$uri/ =404;
 		}
 		if (\$request_filename ~ redirect_me){
-			rewrite ^ https://burasoftwarecrafter.tech/ permanent;
+			rewrite ^ https://kalophain.tech/ permanent;
 		}
 		error_page 404 /error_404.html;
 		location = /error_404.html {
