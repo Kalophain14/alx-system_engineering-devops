@@ -36,7 +36,7 @@ defaults
 frontend  kalophain-frontend
         bind *:80
         mode http
-        bind *:443 ssl crt /etc/haproxy/certs/www.ollyjhay.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.kalophain.tech.pem
         redirect scheme https if !{ ssl_fc }
         default_backend kalophain-backend
 backend kalophain-backend
