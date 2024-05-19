@@ -44,13 +44,8 @@ frontend kalophain-frontend-https
         bind *:443 ssl crt /etc/haproxy/certs/www.kalophain.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend kalophain-backend
-backend kalophain-backend
-        balance roundrobin
-        server 527377-web-01 100.26.152.159:80 check
-        server 527377-web-02 54.90.16.78:80 check
 
-listen http-in
-        bind :80
+backend kalophain-backend
         balance roundrobin
         server 527377-web-01 100.26.152.159:80 check
         server 527377-web-02 54.90.16.78:80 check
